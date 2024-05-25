@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumblebee - about</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="scripts/enrestrict.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <a class="navbar__item navbar__logo" href="enindex.html">Bumblebee</a>
+            <a class="navbar__item flaguk flagon"><img src="assets/images/gb.svg" alt="ukflag"></a>
+            <a class="navbar__item flagit " href="itabout.html" ><img src="assets/images/it.svg" alt="itflag"></a>
+            <a class="navbar__item navbar__link" href="enindex.html">Home</a>
+            <a class="navbar__item navbar__link" href="#">About</a>
+            <a class="navbar__item navbar__link" href="encontact.html">Contact</a>
+            <a class="navbar__item navbar__btn btn" href="enlogin.html">Join us!</a>
+            <a id="logout"class="navbar__item ">Log out</a>
+            <a href="enrestrict.html" id="usr"><span class="navbar__item user username"></span></a>
+            <img class="navbar__item navbar__bee-img" src="assets/images/logo.png" alt="bee">
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <iframe class="hero__lottie-player"
+                src="https://lottie.host/embed/812dd69b-168e-45ad-80cf-c59f91559fc8/2mVEWp45sG.lottie"></iframe>
+
+            <section class="about__intro">
+                <h1 class="hero__heading">Get to know<span>About</span>us</h1>
+                <a class="btn about__btn" type="submit" href="#about-info">Who we are</a>
+            </section>
+        </section>
+        <article class="about-info" id="about-info">
+            <section>
+                <h1 class="about-info__heading">Who we are</h1>
+                <p class="about-info__text intro">Bumblebee is a dedicated job placement company committed to connecting
+                    talented individuals with their dream careers. Our mission is to bridge the gap between job seekers
+                    and employers, fostering a thriving community of professionals who are passionate about their work.
+                    Founded on the principles of integrity, innovation, and excellence, Bumblebee is more than just a
+                    job placement service; we are your partner in professional growth and success.
+                </p>
+            </section>
+            <section class="cards">
+                <h1 class="about-info__heading">What we do</h1>
+                <p class="about-info__text card"><span class="bold">Personalized Job Matching:</span>  We use advanced
+                    algorithms and personalized
+                    assessments to match job seekers with positions that align with their skills, interests, and career
+                    goals. Our goal is to ensure that every placement is a perfect fit, leading to long-term
+                    satisfaction and success.</p>
+                <p class="about-info__text card"><span class="bold">Comprehensive Support:</span>  From crafting the
+                    perfect resume to acing the interview, our team of experts is here to support you every step of the
+                    way. We provide resources, training, and one-on-one coaching to enhance your job search and
+                    professional development.</p>
+                <p class="about-info__text card"><span class="bold">Employer Partnerships:</span>  We collaborate with a
+                    wide
+                    network of reputable employers across various industries. Our relationships with these companies
+                    allow us to offer exclusive job opportunities and insights into what employers are looking for in
+                    potential candidates.</p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__nav">
+            <a class="footer__heading" href="enindex.html">Bumblebee</a>
+            <a class="navbar__item navbar__link" href="enindex.html">Home</a>
+            <a class="navbar__item navbar__link" href="enabout.html">About</a>
+            <a class="navbar__item navbar__link" href="encontact.html">Contact</a>
+        </section>
+        <section class="footer__contact">
+            <a class="footer__heading" href="encontact.html">Contact Us</a>
+            <p class="footer__text"><span class="icon contact__icon">alternate_email</span>support@bumblebee.com
+            </p>
+            <p class="footer__text"><span class="icon contact__icon">phone_in_talk</span>+39300000007</p>
+            <p class="footer__text"><span class="icon contact__icon">pin_drop</span>Via dei Fiorentini 24, 80128
+                Napoli</p>
+        </section>
+        <section class="footer__copyright">
+            <p class="footer__text footer__text--copyright">&copy; Bumblebee - 2024</p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumblebee - home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="scripts/enrestrict.js"></script>
+</head>
+<body>
+ 
+    <header>
+        <nav class="navbar">
+            <a class="navbar__item navbar__logo" href="#">Bumblebee</a>
+            <a class="navbar__item flaguk flagon"><img src="assets/images/gb.svg" alt="ukflag"></a>
+            <a class="navbar__item flagit " href="itindex.html" ><img src="assets/images/it.svg" alt="itflag"></a>
+            <a class="navbar__item navbar__link" href="#">Home</a>
+            <a class="navbar__item navbar__link" href="enabout.html">About</a>
+            <a class="navbar__item navbar__link" href="encontact.html">Contact</a>
+            <a class="navbar__item navbar__btn btn" href="enlogin.html">Join us!</a>
+            <a id="logout"class="navbar__item ">Log out</a>
+            <a href="enrestrict.html" id="usr"><span class="navbar__item user username"></span></a>
+            <img class="navbar__item navbar__bee-img" src="assets/images/logo.png" alt="bee">
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <iframe class="hero__lottie-player"
+                src="https://lottie.host/embed/812dd69b-168e-45ad-80cf-c59f91559fc8/2mVEWp45sG.lottie"></iframe>
+            <section class="hero__cta">
+                <h1 class="hero__heading">Become a <span>Bumblebee</span> today</h1>
+                <p class="hero__text">Join the hive with over 500+ loyal and hard workers all over the world.</p>
+                <a class="hero__btn btn" href="enlogin.html">LOGIN / SIGN UP</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__nav">
+            <a class="footer__heading" href="enindex.html">Bumblebee</a>
+            <a class="navbar__item navbar__link" href="enindex.html">Home</a>
+            <a class="navbar__item navbar__link" href="enabout.html">About</a>
+            <a class="navbar__item navbar__link" href="encontact.html">Contact</a>
+        </section>
+        <section class="footer__contact">
+            <a class="footer__heading" href="encontact.html">Contact Us</a>
+            <p class="footer__text"><span class="icon contact__icon">alternate_email</span>support@bumblebee.com
+            </p>
+            <p class="footer__text"><span class="icon contact__icon">phone_in_talk</span>+39300000007</p>
+            <p class="footer__text"><span class="icon contact__icon">pin_drop</span>Via dei Fiorentini 24, 80128
+                Napoli</p>
+        </section>
+        <section class="footer__copyright">
+            <p class="footer__text footer__text--copyright">&copy; Bumblebee - 2024</p>
+        </section>
+    </footer>
+</body>
+</html>

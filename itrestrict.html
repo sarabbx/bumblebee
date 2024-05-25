@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumblebee - area riservata</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="scripts/restrict.js"></script>
+    <script src="scripts/warning.js"></script>
+</head>
+<body>
+ 
+    <header>
+        <nav class="navbar">
+            <a class="navbar__item navbar__logo" href="#">Bumblebee</a>
+            <a class="navbar__item flaguk " href="enrestrict.html"><img src="assets/images/gb.svg" alt="ukflag"></a>
+            <a class="navbar__item flagit flagon" ><img src="assets/images/it.svg" alt="itflag"></a>
+            <a class="navbar__item navbar__link" href="itindex.html">Home</a>
+            <a class="navbar__item navbar__link" href="itabout.html">Info</a>
+            <a class="navbar__item navbar__link" href="itcontact.html">Contattaci</a>
+            <a class="navbar__item navbar__btn btn" href="itlogin.html">Unisciti a noi!</a>
+            <a id="logout"class="navbar__item ">Esci</a>
+            <a href="itrestrict.html" id="usr"><span class="navbar__item user username"></span></a>
+            <img class="navbar__item navbar__bee-img" src="assets/images/logo.png" alt="bee">
+        </nav>
+    </header>
+    <main>
+        <section class="fixedmsg" id="fixedmsg">
+            <div class="content">
+                <span class="icon warning">warning</span>
+                <h1>Avviso!</h1>
+
+                <p>
+                    Il nostro team cercherà di autenticare il tuo account il prima possibile, entro circa 1-2 giorni
+                    lavorativi,
+                </p>
+
+                <p>-Team di Bumblebee</p>
+            </div>
+            <a href="#" id="toggleButton"><span class="icon closemsg" id="toggleIcon">keyboard_arrow_up</span></a>
+        </section>
+        <section class="hero ">
+            <section class="hero__cta herorestrict">
+                <h1 class="hero__heading">Benvenuto/a <span class="username userino"></span></h1>
+                <p id="paragrafo">Questa è la tua area privata.<span class="icon">
+                    person_play
+                    </span></p>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__nav">
+            <a class="footer__heading" href="itindex.html">Bumblebee</a>
+            <a class="navbar__item navbar__link" href="itindex.html">Home</a>
+            <a class="navbar__item navbar__link" href="itabout.html">Info</a>
+            <a class="navbar__item navbar__link" href="itcontact.html">Contattaci</a>
+        </section>
+        <section class="footer__contact">
+            <a class="footer__heading" href="itcontact.html">Contattaci</a>
+            <p class="footer__text"><span class="icon contact__icon">alternate_email</span>support@bumblebee.com
+            </p>
+            <p class="footer__text"><span class="icon contact__icon">phone_in_talk</span>+39300000007</p>
+            <p class="footer__text"><span class="icon contact__icon">pin_drop</span>Via dei Fiorentini 24, 80128
+                Napoli</p>
+        </section>
+        <section class="footer__copyright">
+            <p class="footer__text footer__text--copyright">&copy; Bumblebee - 2024</p>
+        </section>
+    </footer>
+</body>
+</html>
