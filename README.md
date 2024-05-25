@@ -1,7 +1,14 @@
 // This project was made by Sara Cuccaro and Enrico Argerola. 
 
-## enindex.html
-![index](https://i.imgur.com/tZGUIIG.png "enindex.html") || ![about](http://full/path/to/img.jpg "Optional title") || ![contact](http://full/path/to/img.jpg "Optional title") || ![login](http://full/path/to/img.jpg "Optional title") || ![register](http://full/path/to/img.jpg "Optional title") || ![restrict](http://full/path/to/img.jpg "Optional title") 
+<details>
+<summary><h1> Click on me to show Screenshots</h1></summary>
+![index](https://i.imgur.com/tZGUIIG.png "enindex.html")
+    ![about](http://full/path/to/img.jpg "Optional title")
+    ![contact](http://full/path/to/img.jpg "Optional title")
+    ![login](http://full/path/to/img.jpg "Optional title"
+    ![register](http://full/path/to/img.jpg "Optional title")
+    ![restrict](http://full/path/to/img.jpg "Optional title")
+</details> 
 
 Libraries to install:
 
