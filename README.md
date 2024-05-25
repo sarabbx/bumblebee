@@ -1,3 +1,5 @@
+This project was made by Sara Cuccaro and Enrico Argerola. // Questo progetto è stato realizzato da Sara Cuccaro e Enrico Argerola.
+
 Libraries to install:
 
 pip install Flask
