@@ -1,4 +1,4 @@
-// This project was made by Sara Cuccaro and Enrico Argerola. 
+<h2>// This project was made by Sara Cuccaro and Enrico Argerola. </h2>
 
 <details>
 <summary><h1> Click on me to show screenshots</h1></summary>
@@ -69,7 +69,8 @@ python -m http.server 8000
 Go to:
 http://localhost:8000/enindex.html
 
-// Questo progetto è stato realizzato da Sara Cuccaro e Enrico Argerola.
+
+<h2>// Questo progetto è stato realizzato da Sara Cuccaro e Enrico Argerola.</h2>
 
 <details>
 <summary><h1> Cliccami per visualizzare gli screenshot</h1></summary>
