@@ -1,0 +1,22 @@
+/**
+* @license
+*
+* Font Family: Array
+* Designed by: Frode Helland
+* URL: https://www.fontshare.com/fonts/array
+* © 2024 Indian Type Foundry
+*
+* Array Semibold 
+
+*
+*/
+
+@font-face {
+    font-family: 'Array-Semibold';
+    src: url('../assets/fonts/Array-Semibold.woff2') format('woff2'),
+        url('../assets/fonts/Array-Semibold.woff') format('woff'),
+        url('../assets/fonts/Array-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
