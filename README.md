@@ -1,4 +1,4 @@
-This project was made by Sara Cuccaro and Enrico Argerola. // Questo progetto è stato realizzato da Sara Cuccaro e Enrico Argerola.
+// This project was made by Sara Cuccaro and Enrico Argerola. 
 
 Libraries to install:
 
@@ -47,7 +47,7 @@ python -m http.server 8000
 Go to:
 http://localhost:8000/enindex.html
 
-//
+// Questo progetto è stato realizzato da Sara Cuccaro e Enrico Argerola.
 
 Librerie da installare:
 
