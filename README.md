@@ -1,13 +1,25 @@
 // This project was made by Sara Cuccaro and Enrico Argerola. 
 
 <details>
-<summary><h1> Click on me to show Screenshots</h1></summary>
-![index](https://i.imgur.com/tZGUIIG.png "enindex.html")
-    ![about](http://full/path/to/img.jpg "Optional title")
-    ![contact](http://full/path/to/img.jpg "Optional title")
-    ![login](http://full/path/to/img.jpg "Optional title"
-    ![register](http://full/path/to/img.jpg "Optional title")
-    ![restrict](http://full/path/to/img.jpg "Optional title")
+<summary><h1> Click on me to show screenshots</h1></summary>
+<h3>enindex.html</h3>
+<img src="https://i.imgur.com/tZGUIIG.png" alt="enindex.html" width="600">
+
+<h3>enabout.html</h3>
+<img src="https://i.imgur.com/cxlj43t.png" alt="enabout.html" width="600"><img src="https://i.imgur.com/obYcNOo.png" alt="enabout.html" width="600">
+
+<h3>encontact.html</h3>
+<img src="https://i.imgur.com/yCF5DzW.png" alt="encontact.html" width="600">
+
+<h3>enlogin.html</h3>
+<img src="https://i.imgur.com/fBnXgaR.png" alt="enlogin.html" width="600">
+
+<h3>enregister.html</h3>
+<img src="https://i.imgur.com/0LJTYl1.png" alt="enregister.html" width="600">
+
+<h3>enrestrict.html</h3>
+<img src="https://i.imgur.com/xEtxNgu.png" alt="enrestrict.html" width="600">
+
 </details> 
 
 Libraries to install:
@@ -58,6 +70,28 @@ Go to:
 http://localhost:8000/enindex.html
 
 // Questo progetto è stato realizzato da Sara Cuccaro e Enrico Argerola.
+
+<details>
+<summary><h1> Cliccami per visualizzare gli screenshot</h1></summary>
+<h3>itindex.html</h3>
+<img src="https://i.imgur.com/apbv5Au.png" alt="itindex.html" width="600">
+
+<h3>itabout.html</h3>
+<img src="https://i.imgur.com/ZMytE9w.png" alt="itabout.html" width="600"><img src="https://i.imgur.com/6ZReL9v.png" alt="itabout.html" width="600">
+
+<h3>itcontact.html</h3>
+<img src="https://i.imgur.com/8QRbNTu.png" alt="itcontact.html" width="600">
+
+<h3>itlogin.html</h3>
+<img src="https://i.imgur.com/scqOOkd.png" alt="itlogin.html" width="600">
+
+<h3>itregister.html</h3>
+<img src="https://i.imgur.com/SetAZ6X.jpeg" alt="itregister.html" width="600">
+
+<h3>itrestrict.html</h3>
+<img src="https://i.imgur.com/LfoNjcG.png" alt="itrestrict.html" width="600">
+
+</details> 
 
 Librerie da installare:
 
