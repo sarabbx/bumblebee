@@ -38,7 +38,7 @@ CREATE TABLE users
 
 Make sure you synchronize the model on MySQL Workbench!
 
-Go to the directory where the file app.py is saved "cd bumblebee\site", and run the command:
+Go to the directory where the file app.py is saved ex: "cd bumblebee", and run the command:
 
 python app.python 
 
@@ -87,7 +87,7 @@ CREATE TABLE users
 
 Assicurati di sincronizzare il tuo database su MySQL Workbench!
 
-Andando nella directory dove si trova il nostro file app.py "cd bumblebee\site", digita il comando
+Andando nella directory dove si trova il nostro file app.py  ex: "cd bumblebee", digita il comando
 
 python app.python 
 
